@@ -48,4 +48,11 @@ public class MainActivity extends ActionBarActivity {
         Toast toast = Toast.makeText(getApplicationContext(), text, duration);
         toast.show();
     }
+    public void sendMessageCapstone(View v){
+        CharSequence text = "The Capstone application will start. Bathe in it's Glory.";
+        int duration = Toast.LENGTH_SHORT;
+
+        Toast toast = Toast.makeText(getApplicationContext(), text, duration);
+        toast.show();
+    }
 }

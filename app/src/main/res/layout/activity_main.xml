@@ -46,7 +46,7 @@
             android:layout_margin="3dp"
             android:clickable="true"
             android:nestedScrollingEnabled="true"
-            android:onClick="setListFooter" />
+            android:onClick="sendMessage" />
 
         <Button
             android:layout_width="175dp"
@@ -60,7 +60,8 @@
             android:textColor="#ffffff"
             android:background="#ff1f7600"
             android:layout_margin="3dp"
-            android:clickable="true" />
+            android:clickable="true"
+            android:onClick="sendMessage"/>
 
         <Button
             android:layout_width="175dp"
@@ -73,7 +74,8 @@
             android:textColor="#ffffff"
             android:background="#ff1f7600"
             android:layout_margin="3dp"
-            android:clickable="true" />
+            android:clickable="true"
+            android:onClick="sendMessage"/>
 
         <Button
             android:layout_width="175dp"
@@ -87,7 +89,8 @@
             android:textColor="#ffffff"
             android:background="#ff1f7600"
             android:layout_margin="3dp"
-            android:clickable="true" />
+            android:clickable="true"
+            android:onClick="sendMessage"/>
 
         <Button
             android:layout_width="175dp"
@@ -101,7 +104,8 @@
             android:textColor="#ffffff"
             android:background="#ff1f7600"
             android:layout_margin="3dp"
-            android:clickable="true" />
+            android:clickable="true"
+            android:onClick="sendMessageCapstone"/>
 
     </LinearLayout>
 
