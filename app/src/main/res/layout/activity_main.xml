@@ -10,8 +10,7 @@
         android:orientation="vertical"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
-        android:gravity="center_vertical|center_horizontal"
-        >
+        android:gravity="center_vertical|center_horizontal">
 
         <TextView
             android:layout_width="wrap_content"
@@ -22,7 +21,8 @@
             android:gravity = "center"
             android:textStyle="bold"
             android:layout_alignParentStart="true"
-            android:textColor="#ff6e2a28">
+            android:layout_alignParentLeft = "true"
+            android:textColor="#ffffff" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -32,8 +32,8 @@
             android:textSize="30dp" />
 
         <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="175dp"
+            android:layout_height="45dp"
             android:text="Spotify Streamer"
             android:id="@+id/button"
             android:layout_gravity="center_horizontal"
@@ -41,57 +41,67 @@
             android:layout_centerHorizontal="true"
             android:layout_below="@+id/textView"
             android:background="#ff1f7600"
-            android:textColor="#ff530040"
-            android:textStyle="bold" />
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:layout_margin="3dp"
+            android:clickable="true"
+            android:nestedScrollingEnabled="true"
+            android:onClick="setListFooter" />
 
         <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="175dp"
+            android:layout_height="45dp"
             android:text="Super Duo"
             android:id="@+id/button2"
             android:layout_gravity="center_horizontal"
-            android:layout_alignStart="@id/button"
             android:layout_centerHorizontal="true"
             android:layout_below="@+id/button"
             android:textStyle="bold"
-            android:textColor="#ff530040"
-            android:background="#ff1f7600" />
+            android:textColor="#ffffff"
+            android:background="#ff1f7600"
+            android:layout_margin="3dp"
+            android:clickable="true" />
 
         <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="175dp"
+            android:layout_height="45dp"
             android:text="Build It Bigger"
             android:id="@+id/button3"
-            android:layout_alignStart="@+id/button"
             android:layout_below="@+id/button2"
             android:layout_gravity="center_horizontal"
             android:textStyle="bold"
-            android:textColor="#ff530040"
-            android:background="#ff1f7600" />
+            android:textColor="#ffffff"
+            android:background="#ff1f7600"
+            android:layout_margin="3dp"
+            android:clickable="true" />
 
         <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="175dp"
+            android:layout_height="45dp"
             android:text="XYZ Reader"
             android:id="@+id/button4"
             android:layout_gravity="center_horizontal"
             android:layout_centerHorizontal="true"
             android:layout_below="@+id/button3"
             android:textStyle="bold"
-            android:textColor="#ff530040"
-            android:background="#ff1f7600" />
+            android:textColor="#ffffff"
+            android:background="#ff1f7600"
+            android:layout_margin="3dp"
+            android:clickable="true" />
 
         <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="175dp"
+            android:layout_height="45dp"
             android:text="Capstone Project"
             android:id="@+id/button6"
             android:layout_gravity="center_horizontal"
             android:layout_centerHorizontal="true"
             android:layout_below="@+id/button5"
             android:textStyle="bold"
-            android:textColor="#ff530040"
-            android:background="#ff1f7600" />
+            android:textColor="#ffffff"
+            android:background="#ff1f7600"
+            android:layout_margin="3dp"
+            android:clickable="true" />
 
     </LinearLayout>
 
